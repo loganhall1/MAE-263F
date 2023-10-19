@@ -17,6 +17,9 @@ The second problem is Problem2.m
 The third and final problem is Problem3.m
 -Execution of this Problem simulates the deformation of elastic beams and performs a comparison with Euler-Bernoulli beam theory.
 
+The code in each of these three problems is written in sections, such that individual sections can be run one at a time to address each subquestion, 
+or so that the problem can be run all at once.
+
 Additional scripts are called within these three problems and are included in this repository folder as well
 -gradEb.m
 -gradEs.m
