@@ -146,13 +146,13 @@ saveas(plot5,'Problem3.2_Zoomin.png');
 
 
 
-
+%% Function to simulate for problem 3
 function [timeArray, y_max, y_max_sim, y_max_euler] = Problem3_simulation(N,Load,dt)
 % Number of nodes
 
 ndof = N * 2; % number of degrees of freedom 
 RodLength = 1; %[m] given bar length
-deltaL = RodLength / (N-1); %[m]
+deltaL = RodLength / (N-1); %[m] discrete length
 
 loadDistance = .75;%Distance point load is applied from left edge
 loadNode = round(N * (loadDistance/RodLength));%Determine which Node to apply load
@@ -161,8 +161,6 @@ dofLoadNode = loadNode*2;%Determine which dof to apply load to
 % Inner and outer radii of beam cross section
 R_o = 0.013; %[m] Outer radii of beam cross section
 r_i = 0.011; %[m] Inner radii of beam cross section
-
-
 
 
 % Density
@@ -200,7 +198,7 @@ for k=1:N
 end
 
 
-% Initial DOF
+% Initial DOF vector
 q0 = zeros(ndof, 1);
 for c=1:N % loop over nodes
     q0( 2*c-1 ) = nodes(c,1); % x1, x2, x3
