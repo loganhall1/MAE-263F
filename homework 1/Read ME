@@ -1,1 +1,27 @@
-H
+Read Me
+
+This folder in this repository is for the homework 1 assignment in MAE 263F
+
+Author: Logan Hall
+Date: October 18, 2023
+Class: MAE 263F
+
+The files are uploaded such that there are three files that implement each problem.
+
+The first problem is Problem1.m
+-Execution of this Problem simulates the motion of three connected spheres falling inside viscous fluid.
+
+The second problem is Problem2.m
+-Execution of this Problem simulates the motion of N-connected spheres falling inside viscous fluid.
+
+The third and final problem is Problem3.m
+-Execution of this Problem simulates the deformation of elastic beams and performs a comparison with Euler-Bernoulli beam theory.
+
+Additional scripts are called within these three problems and are included in this repository folder as well
+-gradEb.m
+-gradEs.m
+-hessEb.m
+-hessEs.m
+
+
+If you have any problems or questions, contact me at loganhall@g.ucla.edu
