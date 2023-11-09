@@ -1,1 +1,23 @@
+Read Me
 
+This folder in this repository is for the homework 2 assignment in MAE 263F
+
+Author: Logan Hall
+Date: November 8, 2023
+Class: MAE 263F
+
+
+
+
+The single .m file uploaded to this folder can run the entire simulation.
+
+This .m file contains all of the required subfunctions within it, and thus only this file is needed.
+-Execution of this problem simulates the deformation of the provided elastic rod under gravity.
+
+Also within this repository folder is the pdf report associated with this homework assignment.
+
+
+
+
+
+If you have any problems or questions, contact me at loganhall@g.ucla.edu
