@@ -19,6 +19,8 @@ This .m file is the only file that needs to be directly run for this problem.
 
 
 Also within this repository folder is the pdf report associated with this homework assignment.
+Also within this repository folder are the .mat files for the training and testing. If these are nopt already downloaded,
+they will need to be downloaded in order to successfully run project_206295698.m
 
 
 
