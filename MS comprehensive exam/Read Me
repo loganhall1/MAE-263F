@@ -15,8 +15,8 @@ All helper functions are included within this .m file.
 
 Running this file will execute three steps.
   1) It will run the simulation with P = 10N
-  2) It will run the simulation with P varying from 1 to 100
-  3) It will run the simulation with P varying from 1 to 200
+  2) It will run the simulation with P varying from 1 N to 100 N
+  3) It will run the simulation with P varying from 1 N to 200 N
 
 All three steps will be run with the execution of this file. To run each one, one at a time, the file needs to be opened and then each 
 section can be run individually, if the user desires
